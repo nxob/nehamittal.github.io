@@ -1,35 +1,33 @@
 title: "Neha Mittal"
 description: "Machine Learning Engineer • Bengaluru, India"
-url: "https://<your-username>.github.io"
-baseurl: ""
+url: "https://nxob.github.io"
+baseurl: "/nehamittal.github.io"
 
-# Use Minimal Mistakes as a remote theme (works on GitHub Pages)
 remote_theme: "mmistakes/minimal-mistakes@4.24.0"
 
 plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
   - jekyll-include-cache
+  - jekyll-seo-tag
+  - jekyll-feed
+  - jekyll-remote-theme
 
-# Author/sidebar profile
 author:
-  name: "Your Name"
+  name: "Neha Mittal"
   avatar: "/assets/img/avatar.jpg"
-  bio: "Hi! I build LLM and NLP systems and write about privacy & fairness. Always up to chat or collaborate."
+  bio: "Hi! I build LLM and NLP systems and write about privacy & fairness."
   location: "Bengaluru, India"
   email: "you@example.com"
   links:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
-      url: "https://www.linkedin.com/in/yourhandle"
+      url: "https://www.linkedin.com/in/your-handle"
     - label: "GitHub"
       icon: "fab fa-github"
-      url: "https://github.com/<your-username>"
+      url: "https://github.com/nxob"
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:you@example.com"
 
-# Layout defaults
 defaults:
   - scope:
       path: ""
@@ -38,5 +36,6 @@ defaults:
       layout: "single"
       author_profile: true
 
-# Navigation (top bar)
 include: ["_pages"]
+
+theme: jekyll-theme-minimal
